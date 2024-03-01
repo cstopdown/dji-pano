@@ -1,4 +1,4 @@
-function TPano(d) {
+export function TPano(d) {
     //选取渲染对象的根dom
     let el = document.getElementById(d.el);
     var width = el.clientWidth;
